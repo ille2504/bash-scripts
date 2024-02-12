@@ -2,7 +2,7 @@
 
 finish=0
 
-echo "welcome to my script"
+echo "Welcome to my script"
 
 
 while [ $finish -ne 1 ]
