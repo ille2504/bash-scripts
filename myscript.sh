@@ -2,6 +2,12 @@
 
 finish=0
 
+<<<<<<< HEAD
+=======
+echo "Welcome to my script"
+
+
+>>>>>>> branch1
 while [ $finish -ne 1 ]
 do
 
@@ -17,7 +23,11 @@ do
 
     read distro;
 
+<<<<<<< HEAD
     case $distro in 
+=======
+    case $distro in
+>>>>>>> branch1
         1) echo "Arch is rolling release";;
         2) echo "CentOS is popoular on serveres";;
         3) echo "Debian is community distributions";;
@@ -25,11 +35,18 @@ do
         5) echo "Ubuntu is popular on both  servers and computers";;
         6) echo "there is many distro out there";;
         7) finish=1;;
+<<<<<<< HEAD
 	*) echo "you didn't enter approprite choise";;
+=======
+        *) echo "you didn't enter approprite choise";;
+>>>>>>> branch1
     esac
 done
 
 echo "thank you!!!"
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> branch1
